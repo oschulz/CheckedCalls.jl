@@ -23,6 +23,6 @@ CheckedCallsInverseFunctionsExt = "InverseFunctions"
 [compat]
 ChainRulesCore = "1"
 ChangesOfVariables = "0.1"
-ForwardDiff = "0.8, 0.9, 0.10"
+ForwardDiff = "0.8, 0.9, 0.10, 1"
 InverseFunctions = "0.1"
 julia = "1.6"
