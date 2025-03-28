@@ -11,11 +11,4 @@ include("exceptions.jl")
 include("containsnan.jl")
 include("checkedcall.jl")
 
-@static if !isdefined(Base, :get_extension)
-    include("../ext/CheckedCallsChainRulesCoreExt.jl")
-    include("../ext/CheckedCallsChangesOfVariablesExt.jl")
-    include("../ext/CheckedCallsForwardDiffExt.jl")
-    include("../ext/CheckedCallsInverseFunctionsExt.jl")
-end
-
 end # module
